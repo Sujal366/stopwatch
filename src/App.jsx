@@ -146,7 +146,7 @@ function App() {
                 : false
             }
           >
-            {start && time.hour == 0 && time.minute == 0 && time.second
+            {start
               ? "Stop"
               : "Start"}
           </button>
